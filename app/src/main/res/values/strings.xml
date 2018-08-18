@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Radius</string>
+    <string name="i_am_looking_for">I am looking for</string>
+    <string name="unable_to_load">Unable to load the data, Please check the internet</string>
+    <string name="search">Search</string>
+    <string name="land_cannot_have_rooms">Land cannot have rooms</string>
+    <string name="boat_cannot_have_garage">Boats cannot have garage</string>
+    <string name="cannot_select_no_rooms_and_garage_together">You cannot select No-Rooms and Garage together</string>
+    <string name="search_request_successfully_recorded">Search request successfully recorded</string>
+    <string name="developed_by_prajwal_gs">Developed by prajwal.gs</string>
+    <string name="view_my_apps_in_playstore">View my apps in PlayStore</string>
+</resources>

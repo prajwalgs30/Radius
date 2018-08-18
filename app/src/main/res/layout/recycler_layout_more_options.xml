@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainContent"
+    android:layout_width="@dimen/property_recycler_height"
+    android:layout_height="@dimen/property_recycler_height"
+    android:background="?selectableItemBackground"
+    android:clickable="true"
+    android:orientation="horizontal">
+
+
+    <RelativeLayout
+        android:id="@+id/moreOptionRel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?selectableItemBackground"
+        android:clickable="true">
+
+        <ImageView
+            android:id="@+id/moreOptionIcon"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" />
+
+        <ImageView
+            android:id="@+id/selectedIndicator"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/circle_green"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"
+            android:src="@drawable/selected"
+            android:clickable="false"
+            android:padding="10dp"
+            android:alpha="0.5"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/moreOptionName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/moreOptionIcon"
+            android:gravity="center"
+            android:layout_marginTop="2.5dp"
+            android:textColor="@color/black"
+            android:alpha="0.6"
+            android:textSize="@dimen/small_text_size" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
